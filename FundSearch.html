@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <title>금융상품 판매자용 서비스</title>
+    <style type="text/css">
+        body {
+            font-size: 0.5;
+        }    
+        #outer
+        {
+            position:absolute; 
+            width: 1240px; 
+            margin: 0px 0px 0px -620px;              
+            left: 50%;
+        }   
+        #header{width: 100%;}
+        #fundsearch{
+            width: "620px";
+            float: left;
+        } 
+        #detail{
+            width: "620px";
+            float: left;
+        }    
+        a {text-decoration: none;}     
+    </style>
+</head>
+<body>  
+    <div id="outer">
+        <div id="header">
+            <table width="100%">
+                <tr>
+                    <td width="100px"><h3><a href="index.html">Home</a></h3></td>
+                    <td>
+                        <input type="radio" name="commodity" value="FUND" checked>펀드
+                        <input type="radio" name="commodity" value="ETF">ETF
+                        <input type="radio" name="commodity" value="ELS">ELS
+                    </td>
+                    <td align="right"><img src="setting.jpg" width="30px"></td>
+                </tr>         
+                <tr>
+                    <td colspan="3">
+                        <hr>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id ="fundsearch">
+            <table>                
+                <tr align="center">
+                    <td align="center" colspan="3">
+                        <input type="text" name="keyword" value="" placeholder="검색어를 입력해주세요">
+                        <input type="button" name="btnSearch" value="검색">
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="3"> &nbsp          </td>
+                </tr>               
+                <tr>
+                    <td colspan="3">
+                        <div style="float:left; width: 50%"><input type="checkbox" value="1" checked>제로인 평가등급 태극마크 4개이상</div>
+                        <div style="float:left; width: 50%"><input type="checkbox" value="2">운용기간 3년 이상</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div style="float:left; width:50%"><input type="checkbox" value="3" checked>최근 3년 BM대비 초과 수익 달성</div>
+                        <div><input type="checkbox" value="4">펀드판매사 00이상</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div style="float:left; width:50%"><input type="checkbox" value="5" checked>운영규모 300억이상 ~ 5,000억 이하</div>
+                        <div><input type="checkbox" value="6">펀드매니저 교체율 00 이하</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div style="float:left; width:50%"><input type="checkbox" value="7">3개월 이상 월간유입액 순증</div>
+                    </td>
+                </tr>            
+    
+                <tr>
+                    <td colspan="3"> &nbsp          </td>
+                </tr>  
+                <tr>
+                    <td valgn="top" align="left">
+                        <select name="items1" width="200">
+                            <option value="자금유입">자금유입순(1개월)</option>
+                            <option value="자금유출">자금유출순(1개월)</option>
+                            <option value="설정액">설정액순</option>
+                            <option value="수익률순(6개월)">수익률순(6개월)</option>
+                            <option value="수익률역순(6개월)">수익률역순(6개월)</option>
+                            <option value="평가등급">평가등급순</option>
+                            <option value="추천기관">추천기관수순</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td valgn="top" align="right">
+                        <select name="items2" width="200">
+                            <option value="전체">전체</option>
+                            <option value="펀드자산">투자자산별</option>
+                            <option value="투자지역">투자지역별</option>
+                            <option value="위험등급">위험등급별</option>
+                            <option value="투자성향">투자성향별</option>
+                            <option value="투자성향">투자성향별</option>
+                        </select>
+                    </td>                
+                </tr>            
+                <tr>
+                    <td colspan="3">
+                        <hr style="border: ridge 2px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <td colspan="6"><font size="2"><b><input type="checkbox" name="computer" value="CPU">유진 챔피언단기채증권자투자신탁(채권)S <img src="zeroin5.png" width="80"></b></font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">유형</td><td width="160">국내채권형</td><td width="60">총보수</td><td width="160">연0.18%</td><td width="40">6M</td><td width="80" align="right"><font color="red">0.96%</font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">규모</td><td width="160">3,000억원</td><td width="60">운용기간</td><td width="160">5년</td><td colspan="2"><a href="">유사펀드 목록</a></td>
+                            </tr>
+                            
+                        </table>
+                        <hr>
+                    </td>
+                </tr>   
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <td colspan="6"><font size="2"><b><input type="checkbox" name="computer" value="CPU">유리블록딜공모주증권투자신탁[채권혼합]S <img src="zeroin5.png" width="80"></b></font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">유형</td><td width="160">국내채권혼합형</td><td width="60">총보수</td><td width="160">연0.7%</td><td width="40">6M</td><td width="80" align="right"><font color="red">1.27%</font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">규모</td><td width="160">3,000억원</td><td width="60">운용기간</td><td width="160">5년</td><td colspan="2"><a href="">유사펀드 목록</a></td>
+                            </tr>
+                            
+                        </table>
+                        <hr>
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <td colspan="6"><font size="2"><b><input type="checkbox" name="computer" value="CPU">신한BNPP삼성전자알파증권투자신탁제1호[채권혼합]S <img src="zeroin5.png" width="80"></b></font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">유형</td><td width="160">국내채권혼합형</td><td width="60">총보수</td><td width="160">연0.45%</td><td width="40">6M</td><td width="80" align="right"><font color="red">-</font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">규모</td><td width="160">3,000억원</td><td width="60">운용기간</td><td width="160">5년</td><td colspan="2"><a href="">유사펀드 목록</a></td>
+                            </tr>
+                            
+                        </table>
+                        <hr>
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <td colspan="6"><font size="2"><b><input type="checkbox" name="computer" value="CPU">미래에셋 코어테크증권투자신탁(주식)S <img src="zeroin4.png" width="80"></b></font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">유형</td><td width="160">국내주식형</td><td width="60">총보수</td><td width="160">연1.105%</td><td width="40">6M</td><td width="80" align="right"><font color="red">40.55%</font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">규모</td><td width="160">3,000억원</td><td width="60">운용기간</td><td width="160">5년</td><td colspan="2"><a href="">유사펀드 목록</a></td>
+                            </tr>
+                            
+                        </table>
+                        <hr>
+                    </td>
+                </tr>     
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <td colspan="6"><font size="2"><b><input type="checkbox" name="computer" value="CPU">AB 미국그로스증권투자신탁 (주식-재간접형) S <img src="zeroin4.png" width="80"></b></font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">유형</td><td width="160">해외주식형</td><td width="60">총보수</td><td width="160">연0.415%</td><td width="40">6M</td><td width="80" align="right"><font color="red">30.96%</font></td>
+                            </tr>
+                            <tr>
+                                <td width="40">규모</td><td width="160">3,000억원</td><td width="60">운용기간</td><td width="160">5년</td><td colspan="2"><a href="">유사펀드 목록</a></td>
+                            </tr>                        
+                        </table>
+                        <hr>
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="3">
+                        * 관심금융기관은 1 ~ 5개 내에서 선택하여 저장할 수 있다.
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="3">
+                        * 판매기관 순서는 설정잔액이 큰 순서로 한다.
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="3">
+                        * 자금유입은 1개월기준, 수익률은 6개월 기준으로 하고, 설정할 수 있다.
+                    </td>
+                </tr>      
+                <tr>
+                    <td colspan="3">
+                        * 종목명 클릭 시 요약정보 페이지로 이동한다.
+                    </td>
+                </tr>      
+                <tr>
+                    <td colspan="3">
+                        * 별모양은 제로인 평가등급을 나타낸다.( 1 ~ 5 등급 )
+                    </td>
+                </tr>                                                                               
+            </table>                
+        </div>
+        <div id="detail">
+
+        </div>    
+    </div>
+</body>
