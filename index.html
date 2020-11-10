@@ -5,7 +5,8 @@
         <title>금융상품 판매자용 서비스</title>
         <style type="text/css">
             body {
-                font-size: 0.5;
+                font-family: "맑은고딕", "돋움", "굴림", arial;
+                
             }            
             #outer
             {
@@ -17,14 +18,29 @@
             }
             #overview
             {
-                width: 20%; 
+                width: 220px; 
+                float:left;
+            }              
+            #market
+            {
+                width: 15%; 
+                float:left;
+            }      
+            #fundinfo
+            {
+                width: 220px; 
+                float:left;
+            }              
+            #stock
+            {
+                width: 15%; 
                 float:left;
             }  
-            #fundsearch
+            #news
             {
-                width: 20%; 
+                width: 15%; 
                 float:left;
-            }                       
+            }                                  
             #redstrong
             {
                 color: red;
@@ -38,27 +54,50 @@
     <body>
         <div id="outer">
             <div id="overview">
-                <div><stong style="background-color: blue; color: white">Market Overview</stong></div>
+                <div><a href="stockfund.html"><img src="국내주식.png"></a></div>
+                <div style="height: 10px;"></div>
+                <div><a href="bondfund.html"><img src="국내채권.png"></a></div>
+            </div>
+            <!--
+            <div id="market">
+                <div><stong style="background-color: blue; color: white">시장정보</stong></div>
                 <div>
                     <ul>
-                      <li><a href="stockfund.html">국내 주식</a></li>
-                      <li><a href="bondfund.html">국내 채권</a></li>
-                      <li>해외 주식</li>
-                      <li>해외 채권</li>
-                      <li>부동산</li>
+                      <li>세계지수</li>
+                      <li>환율동향</li>
+                      <li>주요지표</li>
+                      <li>Global_Commodity</li>
+                      <li>주요금리</li>
                     </ul>
                 </div>
-            </div>
-            <div id="fundsearch">
-                <div><stong style="background-color: blue; color: white">펀드 검색</stong></div>
+            </div>            
+            -->
+            <div id="fundinfo">
+                <div>
+                    <a href="fundsearch.html"><img src="My펀드.png"></a>
+                </div>             
+            </div>   
+            <!--
+            <div id="stock">
+                <div><stong style="background-color: blue; color: white">주식</stong></div>
                 <div>
                     <ul>
-                      <li><a href="fundsearch.html">펀드 검색</a></li>
-                      <li>구성종목으로 검색</a></li>
-                      <li>테마로 검색</li>
+                      <li>관심종목</li>
+                      <li>주식현재가</a></li>
+                      <li>기업정보</li>
+                      <li>ETF</li>
                     </ul>
                 </div>             
             </div>
+            -->         
+            <div id="news">
+                <div>
+                    <a href="http://www.bondweb.co.kr/prime/redirectbprime9.asp?id=webmenu&pwd=webmenu&url=/Prime_web/menu01/Research/prime_MAIN.asp?type=prime"><img src="리서치.png"></a></a>
+                    <!--
+                      <li><a href="http://www.bondweb.co.kr/prime/redirectbprime9.asp?id=webmenu&pwd=webmenu&url=http://www.bondweb.co.kr/Prime_web/menu01/sub07/prime_WEEK.asp">달력(채권/경제/휴장일)</a></li>
+                      <li><a href="http://www.bondweb.co.kr/prime/redirectbprime9.asp?id=webmenu&pwd=webmenu&url=http://wei.edaily.co.kr/">해외경제일정</a></li>
+                    -->
+            </div>            
         </div>
     </body>
 </html>
